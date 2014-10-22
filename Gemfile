@@ -1,4 +1,4 @@
-ssource 'https://rubygems.org'
+source 'https://rubygems.org'
 ruby '2.1.1'
 #ruby-gemset=railstutorial_rails_4_0
 
