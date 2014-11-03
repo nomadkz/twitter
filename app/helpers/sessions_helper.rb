@@ -24,6 +24,7 @@ module SessionsHelper
     @current_user ||= User.find_by(remember_token: remember_token)
   end
   
+  
   def sign_out
     current_user.update_attribute(:remember_token,
                                   User.encrypt(User.new_remember_token))
